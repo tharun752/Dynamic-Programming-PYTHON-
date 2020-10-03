@@ -17,5 +17,6 @@ for _ in range(int(input())):
         memo[0][i]=1
     for j in range(1,n+1):
         memo[j][0]=0
+    print("Hello")
 
     print(fun(arr,3,n))
